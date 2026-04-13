@@ -1,16 +1,17 @@
-# Snowflake Cortex AI & Snowpark Resume Agent
+# Snowflake Cortex AI Career Agent: Dynamic Resume Optimization
 
-This project demonstrates an end-to-end AI-driven resume optimization workflow leveraging **Snowflake Cortex** and **Snowpark Python**.
+A production-grade conversational AI agent built on **Snowpark Python** and **Snowflake Cortex AI**. This project demonstrates advanced data engineering practices and LLM integration within a secure cloud data ecosystem.
 
-### Key Features
-- **Snowflake Cortex Integration**: Direct LLM inference using `SNOWFLAKE.CORTEX.COMPLETE` for high-performance text generation.
-- **Secure Snowpark Session Management**: Python-based connectivity to Snowflake data infrastructure.
-- **Production-Ready Security**: 
-  - Implementation of **parameterized SQL queries** to prevent SQL Injection.
-  - Complete **data sanitization** for public repository sharing.
-- **Automated Logging**: Tracks LLM interactions directly into Snowflake tables for audit and fine-tuning.
+### 🌟 Core Capabilities
+- **Rolling Memory Architecture**: Implemented an automated summarization logic to maintain context continuity while optimizing token usage and performance—managed natively within Snowflake tables.
+- **Enterprise-Grade Security**: 
+    - Full **Data Sanitization** to protect internal infrastructure details.
+    - Implementation of **Parameterized SQL Queries** (Bind Variables) to eliminate SQL Injection risks.
+- **Native AI Integration**: Leverages `SNOWFLAKE.CORTEX.COMPLETE` with **Claude Sonnet (`claude-sonnet-4-6`)** for state-of-the-art reasoning without data exfiltration.
+- **Session Persistence**: Features a robust session management system to list, resume, and track multiple optimization projects across different users.
 
-### Tech Stack
-- **Languages**: Python 3.9+
-- **Cloud**: Snowflake (Cortex AI, Snowpark)
-- **Libraries**: `snowflake-snowpark-python`# Snowflake-Cortex-AI
+### 🛠 Tech Stack
+- **Cloud Data Platform**: Snowflake (Snowpark, Cortex AI)
+- **AI Model**: Claude Sonnet (`claude-sonnet-4-6`)
+- **Programming**: Python 3.9+, Snowflake SQL
+- **Framework**: Object-Oriented Design (OOD) for modularity.
